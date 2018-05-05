@@ -1,4 +1,48 @@
 .container {
-    max-width: 1280px;
-    margin: 0 auto;
+    margin-top: 30px;
+    color: #37382F;
 }
+hr {
+    border-top: 5px solid #D4B12A;
+}
+.pic {
+    float: right;
+    position: relative;
+    background: url(../img/1.jpg) no-repeat center center;
+    width: 250px;
+    height: 250px;
+}
+.info {
+    padding-top: 50px;
+}
+
+.well {
+    background: #D4B12A;
+    color: #37382F;
+    margin-bottom: 0;
+}
+.odd {
+    background: #37382F;
+    color: #D4B12A;
+}
+
+.well b {
+    text-transform: uppercase;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+.films-list {
+    padding: 10px;
+    background: #37382F;
+    color: #EFEFEF;
+    padding: 20px;
+}
+.films-list dl dd {
+    padding-left: 8px;
+    margin-bottom: 5px;
+}
+/* .black-col {
+    background: #37382F;
+} */
