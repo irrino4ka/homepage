@@ -24,6 +24,10 @@ hr {
 .odd {
     background: #37382F;
     color: #D4B12A;
+    margin-bottom: 20px; 
+}
+.odd b {
+    color: #EFEFEF;
 }
 
 .well b {
@@ -41,8 +45,11 @@ hr {
 }
 .films-list dl dd {
     padding-left: 8px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
-/* .black-col {
-    background: #37382F;
-} */
+.glyphicon-film {
+    padding-left: 10px;
+}
+.text-justify span {
+    padding-left: 20px;
+}
