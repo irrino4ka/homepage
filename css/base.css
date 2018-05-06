@@ -32,24 +32,56 @@ hr {
 
 .well b {
     text-transform: uppercase;
+    padding-left: 10px;
 }
 
 .row {
     margin-bottom: 15px;
 }
-.films-list {
+.right-list {
     padding: 10px;
     background: #37382F;
     color: #EFEFEF;
     padding: 20px;
 }
-.films-list dl dd {
+.right-list dl dd {
     padding-left: 8px;
     margin-bottom: 10px;
 }
+.right-list li {
+    color: #EFEFEF;
+    margin-bottom: 6px;
+}
+.right-list li:nth-child(odd) {
+    color: #A4A4A0;
+}
+
 .glyphicon-film {
     padding-left: 10px;
 }
 .text-justify span {
     padding-left: 20px;
 }
+
+.fa {
+    font-size: 16px;
+    padding-top: 2px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    background: #EFEFEF;
+    color: #968C6C;
+    border: 1px solid #EFEFEF;
+    border-radius: 5px;
+  }
+.contact span {
+    color: #EFEFEF;
+    padding-left: 7px;
+    display: inline-block;
+    font-size: 16px;
+}
+  .fa:hover {
+      opacity: 0.7;
+  }
